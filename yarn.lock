@@ -243,6 +243,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iarna/toml@npm:^2.2.5":
+  version: 2.2.5
+  resolution: "@iarna/toml@npm:2.2.5"
+  checksum: b63b2b2c4fd67969a6291543ada0303d45593801ee744b60f5390f183c03d9192bc67a217abb24be945158f1935f02840d9ffff40c0142aa171b5d3b6b6a3ea5
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -389,6 +396,19 @@ __metadata:
   peerDependencies:
     "@sveltejs/kit": ^1.0.0
   checksum: 7f74086a140a1f3c5c70f17d60b89572f3df4b7df39d8a10d0db31e00a656cbfdd9b6f9b894232714b4b6f7a7644da7c3cd987621f9d823653a9901bfdf0c475
+  languageName: node
+  linkType: hard
+
+"@sveltejs/adapter-netlify@npm:^2.0.8":
+  version: 2.0.8
+  resolution: "@sveltejs/adapter-netlify@npm:2.0.8"
+  dependencies:
+    "@iarna/toml": ^2.2.5
+    esbuild: ^0.18.11
+    set-cookie-parser: ^2.6.0
+  peerDependencies:
+    "@sveltejs/kit": ^1.5.0
+  checksum: 7d63bd5d276a534870845dd0c247bd33e1245766736a88847d5ca927fcb9428e38dcc37782f23b269216bd96b2cad0a04ae3c1c195a5344268dbef6d298fa40c
   languageName: node
   linkType: hard
 
@@ -1247,7 +1267,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.18.10":
+"esbuild@npm:^0.18.10, esbuild@npm:^0.18.11":
   version: 0.18.19
   resolution: "esbuild@npm:0.18.19"
   dependencies:
@@ -2560,6 +2580,7 @@ __metadata:
   dependencies:
     "@playwright/test": ^1.28.1
     "@sveltejs/adapter-auto": ^2.0.0
+    "@sveltejs/adapter-netlify": ^2.0.8
     "@sveltejs/kit": ^1.20.4
     "@typescript-eslint/eslint-plugin": ^5.45.0
     "@typescript-eslint/parser": ^5.45.0

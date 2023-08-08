@@ -38,12 +38,11 @@
 	.header {
 		display: flex;
 		justify-content: flex-end;
-		padding: 16px;
+		padding: 36px;
 	}
 
 	.wrapper {
-		/* width: 100%; */
 		height: 1024px;
-		padding: 32px;
+		padding: 72px;
 	}
 </style>
