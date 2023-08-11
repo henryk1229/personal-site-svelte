@@ -8,7 +8,11 @@
 			I principally work with Typescript, React, GraphQL, Node, and PostgreSQL, and I'm currently
 			learning Rust.
 		</p>
-		<p>I built this minimal site to play with Svelte and host a few projects (coming soon!)</p>
+		<p>I built this minimal site to play with Svelte and host a few projects.</p>
+		<p>
+			In the meantime, check out <a href="https://github.com/henryk1229">github</a> to see what I've
+			been working on.
+		</p>
 	</div>
 </div>
 
@@ -38,11 +42,10 @@
 	.header {
 		display: flex;
 		justify-content: flex-end;
-		padding: 36px;
 	}
 
 	.wrapper {
 		height: 1024px;
-		padding: 72px;
+		padding: 60px 240px;
 	}
 </style>
