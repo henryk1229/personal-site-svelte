@@ -1,18 +1,33 @@
 <div class="wrapper">
-	<div class="header">
-		<h1>Hi, I'm Henry</h1>
-	</div>
+	<h1>Hi, I'm Henry</h1>
+	<svg style="height: 4px" xmlns="http://www.w3.org/2000/svg">
+		<line x1="0" y1="0" x2="200" y2="0" stroke="black" stroke-width="2px" />
+	</svg>
 	<div>
-		<p>I'm a software engineer working in the political tech space.</p>
-		<p>
-			I principally work with Typescript, React, GraphQL, Node, and PostgreSQL, and I'm currently
-			learning Rust.
-		</p>
-		<p>I built this minimal site to play with Svelte and host a few projects.</p>
-		<p>
+		<div>
+			I'm a software engineer working in the <a href="https://www.politicsrewired.com/"
+				>political tech space</a
+			>.
+		</div>
+		<div>
+			I principally work with:
+			<ul>
+				<li>Typescript</li>
+				<li>React</li>
+				<li>GraphQL</li>
+				<li>Node</li>
+				<li>PostgreSQL</li>
+			</ul>
+			and I'm learning Rust.
+		</div>
+		<div>
+			I built this minimal site to play with Svelte and host a few projects. Be sure to check back
+			soon!
+		</div>
+		<div>
 			In the meantime, check out <a href="https://github.com/henryk1229">github</a> to see what I've
 			been working on.
-		</p>
+		</div>
 	</div>
 </div>
 
@@ -28,24 +43,16 @@
 	}
 
 	h1 {
-		font-family: Gelasio;
+		margin-bottom: 4px;
 	}
-
-	p {
-		font-family: Gelasio;
-	}
-
 	div {
-		background-color: #f3efe0;
+		margin: 12px 0px;
 	}
-
-	.header {
-		display: flex;
-		justify-content: flex-end;
+	li {
+		margin: 8px;
 	}
-
 	.wrapper {
-		height: 1024px;
-		padding: 60px 240px;
+		font-family: Gelasio;
+		padding: 120px;
 	}
 </style>
