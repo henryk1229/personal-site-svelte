@@ -1,10 +1,14 @@
 <div class="wrapper">
 	<h1>Hi, I'm Henry</h1>
 	<svg style="height: 4px" xmlns="http://www.w3.org/2000/svg">
-		<line x1="0" y1="0" x2="205" y2="0" stroke="black" stroke-width="2px" />
+		<line x1="0" y1="0" x2="200" y2="0" stroke="black" stroke-width="2px" />
 	</svg>
-	<div class="resumeContents">
-		<div>I'm a software engineer working in the political tech space.</div>
+	<div>
+		<div>
+			I'm a software engineer working in the <a href="https://www.politicsrewired.com/"
+				>political tech space</a
+			>.
+		</div>
 		<div>
 			I principally work with:
 			<ul>
@@ -16,7 +20,10 @@
 			</ul>
 			and I'm learning Rust.
 		</div>
-		<div>I built this minimal site to play with Svelte and host a few projects.</div>
+		<div>
+			I built this minimal site to play with Svelte and host a few projects. Be sure to check back
+			soon!
+		</div>
 		<div>
 			In the meantime, check out <a href="https://github.com/henryk1229">github</a> to see what I've
 			been working on.
@@ -38,19 +45,14 @@
 	h1 {
 		margin-bottom: 4px;
 	}
-
-	.resumeContents {
-		margin: '30px 0px';
-		& :is(div) {
-			margin: '8px 0px';
-		}
+	div {
+		margin: 12px 0px;
 	}
-
-	/* .resumeContents > div {
-		margin: '20px 0px';
-	} */
+	li {
+		margin: 8px;
+	}
 	.wrapper {
 		font-family: Gelasio;
-		padding: 80px;
+		padding: 120px;
 	}
 </style>
