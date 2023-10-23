@@ -1,18 +1,26 @@
 <div class="wrapper">
-	<div class="header">
-		<h1>Hi, I'm Henry</h1>
-	</div>
-	<div>
-		<p>I'm a software engineer working in the political tech space.</p>
-		<p>
-			I principally work with Typescript, React, GraphQL, Node, and PostgreSQL, and I'm currently
-			learning Rust.
-		</p>
-		<p>I built this minimal site to play with Svelte and host a few projects.</p>
-		<p>
+	<h1>Hi, I'm Henry</h1>
+	<svg style="height: 4px" xmlns="http://www.w3.org/2000/svg">
+		<line x1="0" y1="0" x2="205" y2="0" stroke="black" stroke-width="2px" />
+	</svg>
+	<div class="resumeContents">
+		<div>I'm a software engineer working in the political tech space.</div>
+		<div>
+			I principally work with:
+			<ul>
+				<li>Typescript</li>
+				<li>React</li>
+				<li>GraphQL</li>
+				<li>Node</li>
+				<li>PostgreSQL</li>
+			</ul>
+			and I'm learning Rust.
+		</div>
+		<div>I built this minimal site to play with Svelte and host a few projects.</div>
+		<div>
 			In the meantime, check out <a href="https://github.com/henryk1229">github</a> to see what I've
 			been working on.
-		</p>
+		</div>
 	</div>
 </div>
 
@@ -28,24 +36,21 @@
 	}
 
 	h1 {
-		font-family: Gelasio;
+		margin-bottom: 4px;
 	}
 
-	p {
-		font-family: Gelasio;
+	.resumeContents {
+		margin: '30px 0px';
+		& :is(div) {
+			margin: '8px 0px';
+		}
 	}
 
-	div {
-		background-color: #f3efe0;
-	}
-
-	.header {
-		display: flex;
-		justify-content: flex-end;
-	}
-
+	/* .resumeContents > div {
+		margin: '20px 0px';
+	} */
 	.wrapper {
-		height: 1024px;
-		padding: 60px 240px;
+		font-family: Gelasio;
+		padding: 80px;
 	}
 </style>
