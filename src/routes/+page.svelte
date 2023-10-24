@@ -53,6 +53,6 @@
 	}
 	.wrapper {
 		font-family: Gelasio;
-		padding: 120px;
+		padding: 64px 128px;
 	}
 </style>
