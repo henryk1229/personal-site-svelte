@@ -17,17 +17,25 @@
 				<li>GraphQL</li>
 				<li>Node</li>
 				<li>PostgreSQL</li>
+				<li>Rust</li>
 			</ul>
-			and I'm learning Rust.
 		</div>
 		<div>
-			I built this minimal site to play with Svelte and host a few projects. Be sure to check back
-			soon!
+			I built this minimal site to play with Svelte, and host a few projects I've been working on.
 		</div>
 		<div>
-			In the meantime, check out <a href="https://github.com/henryk1229">github</a> to see what I've
-			been working on.
+			While they're still being polished, check out <a href="https://github.com/henryk1229"
+				>github</a
+			> to see what I've been working on.
 		</div>
+		<h3>Get in touch</h3>
+		<ul>
+			<li>
+				You can find me on <a href="https://www.linkedin.com/in/henry-koehler-a73066176/"
+					>linkedin</a
+				>, or reach out to me at <a href="mailto:henryk1229@gmail.coms">henryk1229@gmail.com</a>
+			</li>
+		</ul>
 	</div>
 </div>
 
