@@ -21,12 +21,14 @@
 			</ul>
 		</div>
 		<div>
-			I built this minimal site to play with Svelte, and host a few projects I've been working on.
-		</div>
-		<div>
-			While they're still being polished, check out <a href="https://github.com/henryk1229"
-				>github</a
-			> to see what I've been working on.
+			In my spare time, I like building <a href="https://github.com/henryk1229/wordsalad"
+				>word games</a
+			>
+			and
+			<a
+				href="https://open.spotify.com/artist/5BN5Uywy6N8nWwmIB7Jr7A?si=KM2GxzfzTn61g3ncSZMOAg"
+				target="_blank">making music</a
+			>
 		</div>
 		<h3>Get in touch</h3>
 		<ul>
