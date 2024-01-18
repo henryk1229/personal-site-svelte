@@ -35,7 +35,8 @@
 			<li>
 				You can find me on <a href="https://www.linkedin.com/in/henry-koehler-a73066176/"
 					>linkedin</a
-				>, or reach out to me at <a href="mailto:henryk1229@gmail.coms">henryk1229@gmail.com</a>
+				>, follow me on <a href="https://github.com/henryk1229">github</a>, or reach out to me at
+				<a href="mailto:henryk1229@gmail.coms">henryk1229@gmail.com</a>
 			</li>
 		</ul>
 	</div>
