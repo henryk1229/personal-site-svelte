@@ -21,9 +21,7 @@
 			</ul>
 		</div>
 		<div>
-			In my spare time, I like building <a href="https://github.com/henryk1229/wordsalad"
-				>word games</a
-			>
+			In my spare time, I like building <a href="https://hhk.nyc/wordsalad">word games</a>
 			and
 			<a
 				href="https://open.spotify.com/artist/5BN5Uywy6N8nWwmIB7Jr7A?si=KM2GxzfzTn61g3ncSZMOAg"
