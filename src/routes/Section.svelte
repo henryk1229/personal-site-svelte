@@ -29,4 +29,8 @@
 		margin: 7px 0px 0px;
 		padding: 0px 0px 7px;
 	}
+	ul {
+		margin: 0.3em 0 0 1.6em;
+		padding: 0;
+	}
 </style>
