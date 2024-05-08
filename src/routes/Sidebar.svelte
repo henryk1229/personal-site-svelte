@@ -18,8 +18,9 @@
 
 <style>
 	.header {
-		padding-bottom: 6px;
+		padding-bottom: 7px;
 		margin-bottom: 6px;
+		margin-right: 32px;
 		border-bottom: 1px solid #eaecf0;
 		line-height: 1.6;
 		font-weight: bold;

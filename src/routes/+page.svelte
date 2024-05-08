@@ -2,14 +2,29 @@
 	import Section from './Section.svelte';
 	import NavBar from './NavBar.svelte';
 	import Sidebar from './Sidebar.svelte';
+	import { onMount } from 'svelte';
+
+	let small = false;
+
+	onMount(() => {
+		const query = window.matchMedia(`(max-width: 767px)`);
+
+		const onChange = () => (small = query.matches);
+		query.addEventListener('change', onChange);
+		onChange();
+
+		return () => query.removeEventListener('change', onChange);
+	});
 </script>
 
 <div class="wrapper">
 	<div class="page-container">
 		<div class="page-container-inner">
-			<div class="sider-container">
-				<Sidebar />
-			</div>
+			{#if !small}
+				<div class="sider-container">
+					<Sidebar />
+				</div>
+			{/if}
 			<div>
 				<h1 class="page-title">Henry Koehler</h1>
 				<NavBar />
@@ -131,14 +146,13 @@
 		box-sizing: border-box;
 		position: relative;
 		z-index: 0;
-		/* margin: 0 auto; */
 		padding-top: 64px;
 		padding-bottom: 64px;
 		background-color: #fff;
 		color: #202122;
 		/* TODO - media queries? */
 		padding-left: 4rem;
-		padding-right: 12rem;
+		padding-right: 4rem;
 	}
 
 	.page-title {
@@ -148,8 +162,13 @@
 
 	.page-container-inner {
 		display: grid;
-		column-gap: 24px;
-		grid-template: min-content 1fr min-content / 12.25rem minmax(0, 1fr);
+		@media (min-width: 767px) {
+			grid-template: min-content 0.5fr min-content / 9.25rem minmax(0, 1fr);
+		}
+		@media (min-width: 900px) {
+			column-gap: 24px;
+			grid-template: min-content 1fr min-content / 12.25rem minmax(0, 1fr);
+		}
 	}
 
 	.body-content {
