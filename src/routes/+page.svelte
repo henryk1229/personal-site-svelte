@@ -33,18 +33,27 @@
 				</div>
 				<div class="body-content">
 					<p>
-						<span style="font-weight:bold">Henry Koehler</span> is an American software engineer and
-						musician.
+						<span style="font-weight:bold">Henry Hanford Koehler</span> is an American software engineer
+						and musician.
 					</p>
 					<Section>
 						<span slot="title">Personal life</span>
-						<span slot="contents">Koehler lives in Brooklyn, NY with his fiance.</span>
+						<span slot="contents"
+							>Koehler was raised in suburban New Jersey. As a child, he enjoyed playing the guitar,
+							Scrabble, and Age of Empires. After attending college in <a
+								href="https://en.wikipedia.org/wiki/New_York_City">New York</a
+							>, he moved to the city full time, where he was a founding member of the band
+							<a href="https://personalspaceband.bandcamp.com/music">Personal Space</a>. He
+							currently lives in
+							<a href="https://en.wikipedia.org/wiki/Brooklyn">Brooklyn, NY</a> with his fiance.</span
+						>
 					</Section>
 					<Section>
 						<span slot="title">Engineering</span>
-						<span slot="contents"
-							>Koehler was the first hire at Politics Rewired, a worker's coop that operated in the
-							political tech space. While there, he had contributions to ... He also did..
+						<span slot="contents">
+							<p>In 2019, Koehler attended the Flatiron School for full stack web development.</p>
+							<p>Koehler was the first hire at Politics Rewired.</p>
+							<p>In the summer of 2023, Koehler conceived of WordSalad</p>
 						</span>
 					</Section>
 					<Section>
