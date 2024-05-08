@@ -38,27 +38,14 @@
 					</p>
 					<Section>
 						<span slot="title">Personal life</span>
-						<span slot="contents"
-							>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-							the industry's standard dummy text ever since the 1500s, when an unknown printer took
-							a galley of type and scrambled it to make a type specimen book. It has survived not
-							only five centuries, but also the leap into electronic typesetting, remaining
-							essentially unchanged. It was popularised in the 1960s with the release of Letraset
-							sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-							software like Aldus PageMaker including versions of Lorem Ipsum.</span
-						>
+						<span slot="contents">Koehler lives in Brooklyn, NY with his fiance.</span>
 					</Section>
 					<Section>
 						<span slot="title">Engineering</span>
 						<span slot="contents"
-							>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-							the industry's standard dummy text ever since the 1500s, when an unknown printer took
-							a galley of type and scrambled it to make a type specimen book. It has survived not
-							only five centuries, but also the leap into electronic typesetting, remaining
-							essentially unchanged. It was popularised in the 1960s with the release of Letraset
-							sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-							software like Aldus PageMaker including versions of Lorem Ipsum.</span
-						>
+							>Koehler was the first hire at Politics Rewired, a worker's coop that operated in the
+							political tech space. While there, he had contributions to ... He also did..
+						</span>
 					</Section>
 					<Section>
 						<span slot="title">Hobbies</span>
@@ -86,30 +73,6 @@
 							</li>
 						</span>
 					</Section>
-					<!-- <div>
-					I'm a software engineer working in the <a href="https://www.politicsrewired.com/"
-						>political tech space</a
-					>.
-				</div>
-				<div>
-					I principally work with:
-					<ul>
-						<li>Typescript</li>
-						<li>React</li>
-						<li>GraphQL</li>
-						<li>Node</li>
-						<li>PostgreSQL</li>
-						<li>Rust</li>
-					</ul>
-				</div>
-				<div>
-					In my spare time, I like building <a href="https://hhk.nyc/wordsalad">word games</a>
-					and
-					<a
-						href="https://open.spotify.com/artist/5BN5Uywy6N8nWwmIB7Jr7A?si=KM2GxzfzTn61g3ncSZMOAg"
-						target="_blank">making music</a
-					>
-				</div> -->
 				</div>
 			</div>
 		</div>
@@ -169,13 +132,6 @@
 			column-gap: 24px;
 			grid-template: min-content 1fr min-content / 12.25rem minmax(0, 1fr);
 		}
-	}
-
-	.body-content {
-		/* TODO */
-	}
-
-	.page-title-main {
 	}
 
 	.sider-container {
