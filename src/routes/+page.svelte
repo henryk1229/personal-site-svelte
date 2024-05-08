@@ -80,6 +80,18 @@
 </div>
 
 <style>
+	@media (min-width: 767px) {
+		.page-container-inner {
+			column-gap: 8px;
+			grid-template: min-content 0.5fr min-content / 9.25rem minmax(0, 1fr);
+		}
+	}
+	@media (min-width: 900px) {
+		.page-container-inner {
+			column-gap: 24px;
+			grid-template: min-content 1fr min-content / 12.25rem minmax(0, 1fr);
+		}
+	}
 	.wrapper {
 		font-family: sans-serif;
 	}
@@ -113,7 +125,6 @@
 		padding-bottom: 64px;
 		background-color: #fff;
 		color: #202122;
-		/* TODO - media queries? */
 		padding-left: 4rem;
 		padding-right: 4rem;
 	}
@@ -125,13 +136,6 @@
 
 	.page-container-inner {
 		display: grid;
-		@media (min-width: 767px) {
-			grid-template: min-content 0.5fr min-content / 9.25rem minmax(0, 1fr);
-		}
-		@media (min-width: 900px) {
-			column-gap: 24px;
-			grid-template: min-content 1fr min-content / 12.25rem minmax(0, 1fr);
-		}
 	}
 
 	.sider-container {
