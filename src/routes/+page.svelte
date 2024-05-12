@@ -51,22 +51,32 @@
 					<Section>
 						<span slot="title">Engineering</span>
 						<span slot="contents">
-							<p>In 2019, Koehler attended the Flatiron School for full stack web development.</p>
-							<p>Koehler was the first hire at Politics Rewired.</p>
-							<p>In the summer of 2023, Koehler conceived of WordSalad</p>
+							<p>
+								In 2019, Koehler attended the <a href="https://flatironschool.com/campuses/nyc/"
+									>Flatiron School</a
+								> for software engineering.
+							</p>
+							<p>
+								He was the first hire at <a href="https://www.politicsrewired.com/"
+									>Politics Rewired</a
+								>, a cooperatively run tech startup, joining co-founders
+								<a href="https://bprp.xyz/">Ben Packer</a> and Ben Chrobot in October, 2019. In addition
+								to full stack contributions to both products that the company offered, he also served
+								as the Membership Secretary, and founded and chaired the Social committee.
+							</p>
+							<p>
+								In the summer of 2023, Koehler conceived of <a href="/wordsalad">WordSalad</a>, a
+								daily word game. Technical work began in September, 2023, and the game was deployed
+								on January 2nd, 2024.
+							</p>
+							<p>In February, 2024, Koehler began contract work for a European-based AI startup.</p>
 						</span>
 					</Section>
 					<Section>
 						<span slot="title">Hobbies</span>
-						<span slot="contents"
-							>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-							the industry's standard dummy text ever since the 1500s, when an unknown printer took
-							a galley of type and scrambled it to make a type specimen book. It has survived not
-							only five centuries, but also the leap into electronic typesetting, remaining
-							essentially unchanged. It was popularised in the 1960s with the release of Letraset
-							sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-							software like Aldus PageMaker including versions of Lorem Ipsum.</span
-						>
+						<span slot="contents">
+							In his spare time, Koehler enjoys making music, cooking, and word games.
+						</span>
 					</Section>
 					<Section>
 						<span slot="title">External links</span>
