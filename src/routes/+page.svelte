@@ -33,8 +33,8 @@
 				</div>
 				<div class="body-content">
 					<p>
-						<span style="font-weight:bold">Henry Hanford Koehler</span> is an American software engineer
-						and musician.
+						<span style="font-weight:bold">Henry H. Koehler</span> is an American software engineer and
+						musician.
 					</p>
 					<Section>
 						<span slot="title">Personal life</span>
