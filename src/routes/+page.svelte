@@ -55,12 +55,9 @@
 					</Section>
 					<Section>
 						<span slot="title">Engineering</span>
-						<span slot="contents">
-							<p>
-								Koehler works primarily with React and Node with Typescript, PostgreSQL, GraphQL,
-								and Rust. He also has professional experience with Python, Django, Kubernetes, and
-								Docker.
-							</p>
+						<span slot="contents"
+							>Koehler works primarily with React and Node with Typescript, PostgreSQL, GraphQL, and
+							Rust. He also has professional experience with Python, Django, Kubernetes, and Docker.
 							<p>
 								He was the first hire at <a href="https://www.politicsrewired.com/"
 									>Politics Rewired</a
