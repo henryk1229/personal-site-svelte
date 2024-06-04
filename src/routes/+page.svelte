@@ -45,37 +45,51 @@
 							>, he moved to the city full time, where he was a founding member of the band
 							<a href="https://personalspaceband.bandcamp.com/music">Personal Space</a>. He
 							currently lives in
-							<a href="https://en.wikipedia.org/wiki/Brooklyn">Brooklyn, NY</a> with his fiance.</span
+							<a href="https://en.wikipedia.org/wiki/Brooklyn">Brooklyn, NY</a> with his fiance.
+							<p>
+								In 2019, he attended the <a href="https://flatironschool.com/campuses/nyc/"
+									>Flatiron School</a
+								> for software engineering.
+							</p></span
 						>
 					</Section>
 					<Section>
 						<span slot="title">Engineering</span>
 						<span slot="contents">
 							<p>
-								In 2019, Koehler attended the <a href="https://flatironschool.com/campuses/nyc/"
-									>Flatiron School</a
-								> for software engineering.
+								Koehler works primarily with React and Node with Typescript, PostgreSQL, GraphQL,
+								and Rust. He also has professional experience with Python, Django, Kubernetes, and
+								Docker.
 							</p>
 							<p>
 								He was the first hire at <a href="https://www.politicsrewired.com/"
 									>Politics Rewired</a
-								>, a cooperatively run tech startup, joining co-founders
-								<a href="https://bprp.xyz/">Ben Packer</a> and Ben Chrobot in October, 2019. In addition
-								to full stack contributions to both products that the company offered, he also served
-								as the Membership Secretary, and founded and chaired the Social committee.
+								>, a cooperatively run political tech startup; joining co-founders
+								<a href="https://bprp.xyz/">Ben Packer</a> and Ben Chrobot in October, 2019. He has extensive
+								full stack contributions to two products that the company offered. Assemble, a postgres-backed
+								Airtable competitor, and Spoke Rewired, an app-to-peer texting tool.
+							</p>
+							<p>
+								In addition to his technical contributions, Koehler was an integral part of
+								establishing and scaling the company. He served as the Membership Secretary, founded
+								and chaired the Social committee, and held core administrative responsibilitiies as
+								well.
 							</p>
 							<p>
 								In the summer of 2023, Koehler conceived of <a href="/wordsalad">WordSalad</a>, a
 								daily word game. Technical work began in September, 2023, and the game was deployed
 								on January 2nd, 2024.
 							</p>
-							<p>In February, 2024, Koehler began contract work for a European-based AI startup.</p>
+							<p>
+								In February, 2024, he began contract work for a European-based AI startup that
+								focuses on data privacy.
+							</p>
 						</span>
 					</Section>
 					<Section>
 						<span slot="title">Hobbies</span>
 						<span slot="contents">
-							In his spare time, Koehler enjoys making music, cooking, and word games.
+							In his spare time, Koehler enjoys travel, making music, cooking, and word games.
 						</span>
 					</Section>
 					<Section>
@@ -141,7 +155,7 @@
 		position: relative;
 		z-index: 0;
 		padding-top: 64px;
-		padding-bottom: 64px;
+		padding-bottom: 128px;
 		background-color: #fff;
 		color: #202122;
 		padding-left: 4rem;
