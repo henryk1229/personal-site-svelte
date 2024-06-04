@@ -39,13 +39,15 @@
 					<Section>
 						<span slot="title">Personal life</span>
 						<span slot="contents"
-							>Koehler was raised in suburban New Jersey. As a child, he enjoyed playing the guitar,
-							Scrabble, and Age of Empires. After attending college in <a
-								href="https://en.wikipedia.org/wiki/New_York_City">New York</a
-							>, he moved to the city full time, where he was a founding member of the band
-							<a href="https://personalspaceband.bandcamp.com/music">Personal Space</a>. He
-							currently lives in
-							<a href="https://en.wikipedia.org/wiki/Brooklyn">Brooklyn, NY</a> with his fiance.
+							><p>
+								Koehler was raised in suburban New Jersey. As a child, he enjoyed playing the
+								guitar, Scrabble, and Age of Empires. After attending college in <a
+									href="https://en.wikipedia.org/wiki/New_York_City">New York</a
+								>, he moved to the city full time, where he was a founding member of the band
+								<a href="https://personalspaceband.bandcamp.com/music">Personal Space</a>. He
+								currently lives in
+								<a href="https://en.wikipedia.org/wiki/Brooklyn">Brooklyn, NY</a> with his fiance.
+							</p>
 							<p>
 								In 2019, he attended the <a href="https://flatironschool.com/campuses/nyc/"
 									>Flatiron School</a
