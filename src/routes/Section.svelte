@@ -3,9 +3,9 @@
 		<slot name="title" />
 	</h2>
 	{#if $$slots.contents}
-		<p>
+		<div>
 			<slot name="contents" />
-		</p>
+		</div>
 	{/if}
 	{#if $$slots.list}
 		<ul>
@@ -23,7 +23,7 @@
 		font-weight: normal;
 		border-bottom: 1px solid #a2a9b1;
 	}
-	p {
+	div {
 		font-size: 14px;
 		line-height: 1.5;
 		margin: 7px 0px 0px;
