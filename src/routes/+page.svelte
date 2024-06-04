@@ -56,31 +56,36 @@
 					<Section>
 						<span slot="title">Engineering</span>
 						<span slot="contents"
-							>Koehler works primarily with React and Node with Typescript, PostgreSQL, GraphQL, and
-							Rust. He also has professional experience with Python, Django, Kubernetes, and Docker.
-							<p>
-								He was the first hire at <a href="https://www.politicsrewired.com/"
-									>Politics Rewired</a
-								>, a cooperatively run political tech startup; joining co-founders
-								<a href="https://bprp.xyz/">Ben Packer</a> and Ben Chrobot in October, 2019. He has extensive
-								full stack contributions to two products that the company offered. Assemble, a postgres-backed
-								Airtable competitor, and Spoke Rewired, an app-to-peer texting tool.
-							</p>
-							<p>
-								In addition to his technical contributions, Koehler was an integral part of
-								establishing and scaling the company. He served as the Membership Secretary, founded
-								and chaired the Social committee, and held core administrative responsibilitiies as
-								well.
-							</p>
-							<p>
-								In the summer of 2023, Koehler conceived of <a href="/wordsalad">WordSalad</a>, a
-								daily word game. Technical work began in September, 2023, and the game was deployed
-								on January 2nd, 2024.
-							</p>
-							<p>
-								In February, 2024, he began contract work for a European-based AI startup that
-								focuses on data privacy.
-							</p>
+							><div>
+								<p>
+									Koehler works primarily with React and Node with Typescript, PostgreSQL, GraphQL,
+									and Rust. He also has professional experience with Python, Django, Kubernetes, and
+									Docker.
+								</p>
+								<p>
+									He was the first hire at <a href="https://www.politicsrewired.com/"
+										>Politics Rewired</a
+									>, a cooperatively run political tech startup; joining co-founders
+									<a href="https://bprp.xyz/">Ben Packer</a> and Ben Chrobot in October, 2019. He has
+									extensive full stack contributions to two products that the company offered. Assemble,
+									a postgres-backed Airtable competitor, and Spoke Rewired, an app-to-peer texting tool.
+								</p>
+								<p>
+									In addition to his technical contributions, Koehler was an integral part of
+									establishing and scaling the company. He served as the Membership Secretary,
+									founded and chaired the Social committee, and held core administrative
+									responsibilitiies as well.
+								</p>
+								<p>
+									In the summer of 2023, Koehler conceived of <a href="/wordsalad">WordSalad</a>, a
+									daily word game. Technical work began in September, 2023, and the game was
+									deployed on January 2nd, 2024.
+								</p>
+								<p>
+									In February, 2024, he began contract work for a European-based AI startup that
+									focuses on data privacy.
+								</p>
+							</div>
 						</span>
 					</Section>
 					<Section>
